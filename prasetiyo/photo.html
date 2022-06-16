@@ -1,0 +1,76 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Teras | prasetiyo</title>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap" rel="stylesheet">
+         <link rel="stylesheet" href="css/reset.css" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>slide</title>
+        <link rel="stylesheet" href="css/photo.css">
+  <link rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    </head>
+    <body>
+        <header>
+            <div>
+                <nav>
+                    <ul>
+                        <li><a class="link-active" href="home.html">Teras</a></li>
+                        <li><a href="nulis.html">Nulis</a></li>
+                        <li><a href="#">Sinau</a></li>
+                        <li><a href="#">Bacaan</a></li>
+                        <li><a href="photo.html">Foto</a></li>
+                        <li><a href="#">Saya</a></li>
+                    </ul>
+                </nav>
+                </div>
+        </header>
+        <div class="container">
+            <!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><img src="img/langkah.jpg"></div>
+    <div class="swiper-slide"><img src="img/menanti.jpg"></div>
+      <div class="swiper-slide"><img src="img/anak_pantai.jpg"></div>
+      <div class="swiper-slide"><img src="img/bapak.JPG"></div>
+      <div class="swiper-slide"><img src="img/kuta.jpg"></div>
+      <div class="swiper-slide"><img src="img/tugu.JPG"></div>
+      <div class="swiper-slide"><img src="img/main_pasir.jpg"></div>
+      <div class="swiper-slide"><img src="img/mencari.jpg"></div>
+      <div class="swiper-slide"><img src="img/nyebur.jpg"></div>
+      <div class="swiper-slide"><img src="img/jalan_desa.jpg"></div>
+      <div class="swiper-slide"><img src="img/bung.JPG"></div>
+      <div class="swiper-slide"><img src="img/ngarai.jpg"></div>
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+</div>
+        </div>
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+        <script>
+        const swiper = new Swiper('.swiper', {
+        autoplay: {
+            delay:3000,
+            disableOnInteraction:false,
+        },
+        loop: true,
+
+  pagination: {
+    el: '.swiper-pagination',
+    clickable:true,
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+});
+        </script>
+    </body>
+</html>
