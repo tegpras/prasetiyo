@@ -1,0 +1,130 @@
+body{
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 125%;
+    color: #121212;
+}
+.wrapper{
+    max-width: 1500px;
+    min-width: 1500px;
+    margin: auto;
+}
+.clearfix::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+header{
+    height: 40px;
+    width: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    float: left;
+    font-size: 14px;
+    padding: 20px 25px;
+    font-weight: 700;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #121212;
+}
+h1{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+.link-active{
+    color: #5a5a5a;
+}
+#box1{
+    float: left;
+    width: 450px;
+    height: 625px;
+    min-width: auto;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-style: solid;
+    border-radius: 2px;
+    border-width: 1px;
+    border-color: lightgray;
+    background-color: white;
+    box-sizing: border-box;
+    box-shadow: 5px 5px lightgray;
+}
+#isi{
+    color :black;
+    padding: 5px 10px;
+    text-align-last: justify;
+}
+#lanjut{
+    text-align-last: right;
+    margin-right: 10px;
+}
+#a_lanjut{
+    text-decoration: none;
+    color: #212c5f;
+    font-style: italic;
+    font-weight: 600;
+}
+.team-img{
+    width:400px;
+    margin-bottom: 2px;
+    margin-left: 20px;
+}
+.team-img1{
+    width:400px;
+    height: 270px;
+    margin-bottom: 2px;
+    margin-left: 20px;
+}
+#galeri{
+    width: 1425px;
+    height: 475px;
+    padding: 10px;
+    border-radius: 5px;
+}
+#judul{
+    font-size: 16px;
+    color:black;
+    font-weight: bolder;
+    padding: 20px;
+    font-style: italic;
+}
+#sub_judul{
+    font-size: 8px;
+    text-align: justify;
+    margin-left: 20px;
+}
+#paragraf{
+    text-align: justify;
+    padding: 0px 20px;
+    line-height: 1.5;
+}
+footer{
+    height: 35px;
+    width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: #212c5f;
+}
+#ulbawah{
+    list-style-type: none;
+    margin-left: 375px;
+}
+#libawah{
+    float: left;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 
+}
+#abawah{
+    text-decoration: none;
+    color: white;
+}
